@@ -1,0 +1,7 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00C9A7"/><stop offset="0.5" stop-color="#05998B"/><stop offset="1" stop-color="#03343B"/></linearGradient></defs>
+<g><path d="M0 40 C150.0 22 150.0 22 300.0 40 C450.0 58 450.0 58 600.0 40 C750.0 22 750.0 22 900.0 40 C1050.0 58 1050.0 58 1200.0 40 C1350.0 22 1350.0 22 1500.0 40 C1650.0 58 1650.0 58 1800.0 40 C1950.0 22 1950.0 22 2100.0 40 C2250.0 58 2250.0 58 2400.0 40 L2400.0 110 L0 110 Z" fill="url(#f)" opacity="0.5"/>
+ <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="10s" repeatCount="indefinite"/></g>
+<g><path d="M0 60 C100.0 46 100.0 46 200.0 60 C300.0 74 300.0 74 400.0 60 C500.0 46 500.0 46 600.0 60 C700.0 74 700.0 74 800.0 60 C900.0 46 900.0 46 1000.0 60 C1100.0 74 1100.0 74 1200.0 60 C1300.0 46 1300.0 46 1400.0 60 C1500.0 74 1500.0 74 1600.0 60 C1700.0 46 1700.0 46 1800.0 60 C1900.0 74 1900.0 74 2000.0 60 C2100.0 46 2100.0 46 2200.0 60 C2300.0 74 2300.0 74 2400.0 60 L2400.0 110 L0 110 Z" fill="url(#f)"/>
+ <animateTransform attributeName="transform" type="translate" from="0 0" to="-400 0" dur="8s" repeatCount="indefinite"/></g>
+</svg>

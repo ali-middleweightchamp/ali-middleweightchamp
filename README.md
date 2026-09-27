@@ -1,19 +1,17 @@
 <!-- Header -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:05445E,50:05998B,100:00C9A7&height=220&section=header&text=Ali%20Abdullayev&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=Backend%20%7C%20AI%20Engineer%20%26%20Entrepreneur&descSize=20&descAlignY=58&animation=fadeIn" width="100%" alt="Ali Abdullayev" />
+  <img src="./assets/header.svg" width="100%" alt="Ali Abdullayev — Backend | AI Engineer & Entrepreneur" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/ali-middleweightchamp">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=05998B&center=true&vCenter=true&width=620&lines=Python+Backend+Developer+%F0%9F%90%8D;Building+APIs+with+FastAPI+%26+Django+%E2%9A%A1;AI+Engineering+%26+LLM+Integrations+%F0%9F%A4%96;SaaS+%C2%B7+CRM+%C2%B7+ERP+%C2%B7+Telegram+Mini+Apps;Founder+of+AutoSolve+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
+  <img src="./assets/typing.svg" alt="Python Backend Developer · FastAPI · AI Engineering · Founder of AutoSolve" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ali-abdullayev-311aa534a/"><img src="https://img.shields.io/badge/LinkedIn-05998B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://t.me/xxw9595"><img src="https://img.shields.io/badge/Telegram-05998B?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-  <a href="https://www.instagram.com/aa_abd95/"><img src="https://img.shields.io/badge/Instagram-05998B?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://autosolve.uz"><img src="https://img.shields.io/badge/AutoSolve.uz-05998B?style=for-the-badge&logo=googlechrome&logoColor=white" alt="AutoSolve" /></a>
+  <a href="https://www.linkedin.com/in/ali-abdullayev-311aa534a/"><img src="./assets/linkedin.svg" width="48" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://t.me/xxw9595"><img src="./assets/telegram.svg" width="48" alt="Telegram" /></a>&nbsp;
+  <a href="https://www.instagram.com/aa_abd95/"><img src="./assets/instagram.svg" width="48" alt="Instagram" /></a>&nbsp;
+  <a href="https://autosolve.uz"><img src="./assets/autosolve.png" width="48" alt="AutoSolve" /></a>
 </p>
 
 ---
@@ -36,9 +34,7 @@ I don't only write code, I also build products and startups. I turn ideas into w
 ## 🛠 Tech Stack
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,fastapi,django,postgres,redis,docker,git,github,postman,linux&perline=10" alt="Tech stack" />
-  </a>
+  <img src="./assets/stack.svg" width="600" alt="Python, FastAPI, Django, PostgreSQL, Redis, Docker, Git, GitHub, Postman, Linux" />
 </p>
 
 <p align="center">
@@ -70,8 +66,11 @@ I don't only write code, I also build products and startups. I turn ideas into w
 
 <table>
   <tr>
-    <td width="100%">
-      <h3>⚡ <a href="https://autosolve.uz">AutoSolve</a> — my IT agency</h3>
+    <td width="200" align="center">
+      <a href="https://autosolve.uz"><img src="./assets/autosolve-logo.png" width="180" alt="AutoSolve" /></a>
+    </td>
+    <td>
+      <h3><a href="https://autosolve.uz">AutoSolve</a> — my IT agency</h3>
       <p>
         Digital products for businesses in Uzbekistan, from idea to launch and support:
         websites, web platforms, <b>CRM systems</b>, business automation, <b>Telegram bots</b>
@@ -92,8 +91,8 @@ I don't only write code, I also build products and startups. I turn ideas into w
 ## 📫 Let's connect
 
 I'm open to **Backend Developer** roles, collaborations and interesting projects.
-The fastest way to reach me is Telegram: **[@xxw9595](https://t.me/xxw9595)**
+The fastest way to reach me is Telegram: <a href="https://t.me/xxw9595"><img src="./assets/telegram.svg" width="16" alt="" /> <b>@xxw9595</b></a>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9A7,50:05998B,100:05445E&height=120&section=footer" width="100%" alt="footer" />
+  <img src="./assets/footer.svg" width="100%" alt="" />
 </p>

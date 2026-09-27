@@ -1,0 +1,38 @@
+<svg width="760" height="50" viewBox="0 0 760 50" xmlns="http://www.w3.org/2000/svg">
+<style>.l{font-family:'Courier New',Courier,monospace;font-size:24px;font-weight:700;fill:#0BB39E;white-space:pre}</style>
+<clipPath id="k0"><rect x="207.2" y="0" height="50" width="0">
+  <animate attributeName="width" values="0;0;345.6;345.6;0;0" keyTimes="0;0.0020;0.0920;0.1760;0.1960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
+<text clip-path="url(#k0)" x="207.2" y="33" class="l">Python Backend Developer</text>
+<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
+  <animate attributeName="x" values="207.2;207.2;554.8;554.8;207.2;207.2" keyTimes="0;0.0020;0.0920;0.1760;0.1960;1" dur="16.0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.0020;0.0920;0.1760;0.1960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
+</rect>
+<clipPath id="k1"><rect x="113.6" y="0" height="50" width="0">
+  <animate attributeName="width" values="0;0;532.8;532.8;0;0" keyTimes="0;0.2020;0.2920;0.3760;0.3960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
+<text clip-path="url(#k1)" x="113.6" y="33" class="l">FastAPI · Django · PostgreSQL · Redis</text>
+<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
+  <animate attributeName="x" values="113.6;113.6;648.4;648.4;113.6;113.6" keyTimes="0;0.2020;0.2920;0.3760;0.3960;1" dur="16.0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.2020;0.2920;0.3760;0.3960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
+</rect>
+<clipPath id="k2"><rect x="142.4" y="0" height="50" width="0">
+  <animate attributeName="width" values="0;0;475.2;475.2;0;0" keyTimes="0;0.4020;0.4920;0.5760;0.5960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
+<text clip-path="url(#k2)" x="142.4" y="33" class="l">AI Engineering &amp; LLM Integrations</text>
+<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
+  <animate attributeName="x" values="142.4;142.4;619.6;619.6;142.4;142.4" keyTimes="0;0.4020;0.4920;0.5760;0.5960;1" dur="16.0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.4020;0.4920;0.5760;0.5960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
+</rect>
+<clipPath id="k3"><rect x="113.6" y="0" height="50" width="0">
+  <animate attributeName="width" values="0;0;532.8;532.8;0;0" keyTimes="0;0.6020;0.6920;0.7760;0.7960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
+<text clip-path="url(#k3)" x="113.6" y="33" class="l">SaaS · CRM · ERP · Telegram Mini Apps</text>
+<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
+  <animate attributeName="x" values="113.6;113.6;648.4;648.4;113.6;113.6" keyTimes="0;0.6020;0.6920;0.7760;0.7960;1" dur="16.0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.6020;0.6920;0.7760;0.7960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
+</rect>
+<clipPath id="k4"><rect x="236.0" y="0" height="50" width="0">
+  <animate attributeName="width" values="0;0;288.0;288.0;0;0" keyTimes="0;0.8020;0.8920;0.9760;0.9960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
+<text clip-path="url(#k4)" x="236.0" y="33" class="l">Founder of AutoSolve</text>
+<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
+  <animate attributeName="x" values="236.0;236.0;526.0;526.0;236.0;236.0" keyTimes="0;0.8020;0.8920;0.9760;0.9960;1" dur="16.0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.8020;0.8920;0.9760;0.9960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
+</rect>
+</svg>

@@ -1,38 +1,576 @@
 <svg width="760" height="50" viewBox="0 0 760 50" xmlns="http://www.w3.org/2000/svg">
-<style>.l{font-family:'Courier New',Courier,monospace;font-size:24px;font-weight:700;fill:#0BB39E;white-space:pre}</style>
-<clipPath id="k0"><rect x="207.2" y="0" height="50" width="0">
-  <animate attributeName="width" values="0;0;345.6;345.6;0;0" keyTimes="0;0.0020;0.0920;0.1760;0.1960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
-<text clip-path="url(#k0)" x="207.2" y="33" class="l">Python Backend Developer</text>
-<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
-  <animate attributeName="x" values="207.2;207.2;554.8;554.8;207.2;207.2" keyTimes="0;0.0020;0.0920;0.1760;0.1960;1" dur="16.0s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.0020;0.0920;0.1760;0.1960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
-</rect>
-<clipPath id="k1"><rect x="113.6" y="0" height="50" width="0">
-  <animate attributeName="width" values="0;0;532.8;532.8;0;0" keyTimes="0;0.2020;0.2920;0.3760;0.3960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
-<text clip-path="url(#k1)" x="113.6" y="33" class="l">FastAPI · Django · PostgreSQL · Redis</text>
-<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
-  <animate attributeName="x" values="113.6;113.6;648.4;648.4;113.6;113.6" keyTimes="0;0.2020;0.2920;0.3760;0.3960;1" dur="16.0s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.2020;0.2920;0.3760;0.3960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
-</rect>
-<clipPath id="k2"><rect x="142.4" y="0" height="50" width="0">
-  <animate attributeName="width" values="0;0;475.2;475.2;0;0" keyTimes="0;0.4020;0.4920;0.5760;0.5960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
-<text clip-path="url(#k2)" x="142.4" y="33" class="l">AI Engineering &amp; LLM Integrations</text>
-<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
-  <animate attributeName="x" values="142.4;142.4;619.6;619.6;142.4;142.4" keyTimes="0;0.4020;0.4920;0.5760;0.5960;1" dur="16.0s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.4020;0.4920;0.5760;0.5960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
-</rect>
-<clipPath id="k3"><rect x="113.6" y="0" height="50" width="0">
-  <animate attributeName="width" values="0;0;532.8;532.8;0;0" keyTimes="0;0.6020;0.6920;0.7760;0.7960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
-<text clip-path="url(#k3)" x="113.6" y="33" class="l">SaaS · CRM · ERP · Telegram Mini Apps</text>
-<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
-  <animate attributeName="x" values="113.6;113.6;648.4;648.4;113.6;113.6" keyTimes="0;0.6020;0.6920;0.7760;0.7960;1" dur="16.0s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.6020;0.6920;0.7760;0.7960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
-</rect>
-<clipPath id="k4"><rect x="236.0" y="0" height="50" width="0">
-  <animate attributeName="width" values="0;0;288.0;288.0;0;0" keyTimes="0;0.8020;0.8920;0.9760;0.9960;1" dur="16.0s" repeatCount="indefinite"/></rect></clipPath>
-<text clip-path="url(#k4)" x="236.0" y="33" class="l">Founder of AutoSolve</text>
-<rect y="12" width="3" height="28" fill="#0BB39E" opacity="0">
-  <animate attributeName="x" values="236.0;236.0;526.0;526.0;236.0;236.0" keyTimes="0;0.8020;0.8920;0.9760;0.9960;1" dur="16.0s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0;1;1;1;0;0" keyTimes="0;0.8020;0.8920;0.9760;0.9960;1" dur="16.0s" repeatCount="indefinite" calcMode="discrete"/>
-</rect>
+<style>
+.c{font-family:'Courier New',Courier,monospace;font-size:24px;font-weight:700;fill:#0BB39E;text-anchor:middle;opacity:0;animation-duration:20.07s;animation-iteration-count:infinite;animation-timing-function:linear}
+.u{fill:#0BB39E;opacity:0;animation-duration:20.07s;animation-iteration-count:infinite;animation-timing-function:linear}
+@keyframes k0{0%,0.299%{opacity:0}0.349%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k1{0%,0.648%{opacity:0}0.698%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k2{0%,0.996%{opacity:0}1.046%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k3{0%,1.345%{opacity:0}1.395%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k4{0%,1.694%{opacity:0}1.744%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k5{0%,2.043%{opacity:0}2.093%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k6{0%,2.740%{opacity:0}2.790%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k7{0%,3.089%{opacity:0}3.139%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k8{0%,3.438%{opacity:0}3.488%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k9{0%,3.787%{opacity:0}3.837%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k10{0%,4.135%{opacity:0}4.185%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k11{0%,4.484%{opacity:0}4.534%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k12{0%,4.833%{opacity:0}4.883%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k13{0%,5.530%{opacity:0}5.580%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k14{0%,5.879%{opacity:0}5.929%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k15{0%,6.228%{opacity:0}6.278%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k16{0%,6.577%{opacity:0}6.627%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k17{0%,6.926%{opacity:0}6.976%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k18{0%,7.274%{opacity:0}7.324%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k19{0%,7.623%{opacity:0}7.673%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k20{0%,7.972%{opacity:0}8.022%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k21{0%,8.321%{opacity:0}8.371%,16.343%{opacity:1}16.393%,100%{opacity:0}}
+@keyframes k22{0%,0.000%{opacity:0}0.000%,0.344%{opacity:1}0.394%,100%{opacity:0}}
+@keyframes k23{0%,0.299%{opacity:0}0.349%,0.693%{opacity:1}0.743%,100%{opacity:0}}
+@keyframes k24{0%,0.648%{opacity:0}0.698%,1.041%{opacity:1}1.091%,100%{opacity:0}}
+@keyframes k25{0%,0.996%{opacity:0}1.046%,1.390%{opacity:1}1.440%,100%{opacity:0}}
+@keyframes k26{0%,1.345%{opacity:0}1.395%,1.739%{opacity:1}1.789%,100%{opacity:0}}
+@keyframes k27{0%,1.694%{opacity:0}1.744%,2.088%{opacity:1}2.138%,100%{opacity:0}}
+@keyframes k28{0%,2.043%{opacity:0}2.093%,2.436%{opacity:1}2.486%,100%{opacity:0}}
+@keyframes k29{0%,2.391%{opacity:0}2.441%,2.785%{opacity:1}2.835%,100%{opacity:0}}
+@keyframes k30{0%,2.740%{opacity:0}2.790%,3.134%{opacity:1}3.184%,100%{opacity:0}}
+@keyframes k31{0%,3.089%{opacity:0}3.139%,3.483%{opacity:1}3.533%,100%{opacity:0}}
+@keyframes k32{0%,3.438%{opacity:0}3.488%,3.832%{opacity:1}3.882%,100%{opacity:0}}
+@keyframes k33{0%,3.787%{opacity:0}3.837%,4.180%{opacity:1}4.230%,100%{opacity:0}}
+@keyframes k34{0%,4.135%{opacity:0}4.185%,4.529%{opacity:1}4.579%,100%{opacity:0}}
+@keyframes k35{0%,4.484%{opacity:0}4.534%,4.878%{opacity:1}4.928%,100%{opacity:0}}
+@keyframes k36{0%,4.833%{opacity:0}4.883%,5.227%{opacity:1}5.277%,100%{opacity:0}}
+@keyframes k37{0%,5.182%{opacity:0}5.232%,5.575%{opacity:1}5.625%,100%{opacity:0}}
+@keyframes k38{0%,5.530%{opacity:0}5.580%,5.924%{opacity:1}5.974%,100%{opacity:0}}
+@keyframes k39{0%,5.879%{opacity:0}5.929%,6.273%{opacity:1}6.323%,100%{opacity:0}}
+@keyframes k40{0%,6.228%{opacity:0}6.278%,6.622%{opacity:1}6.672%,100%{opacity:0}}
+@keyframes k41{0%,6.577%{opacity:0}6.627%,6.971%{opacity:1}7.021%,100%{opacity:0}}
+@keyframes k42{0%,6.926%{opacity:0}6.976%,7.319%{opacity:1}7.369%,100%{opacity:0}}
+@keyframes k43{0%,7.274%{opacity:0}7.324%,7.668%{opacity:1}7.718%,100%{opacity:0}}
+@keyframes k44{0%,7.623%{opacity:0}7.673%,8.017%{opacity:1}8.067%,100%{opacity:0}}
+@keyframes k45{0%,7.972%{opacity:0}8.022%,8.366%{opacity:1}8.416%,100%{opacity:0}}
+@keyframes k46{0%,8.321%{opacity:0}8.371%,16.338%{opacity:1}16.388%,100%{opacity:0}}
+@keyframes k47{0%,18.136%{opacity:0}18.186%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k48{0%,18.485%{opacity:0}18.535%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k49{0%,18.834%{opacity:0}18.884%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k50{0%,19.183%{opacity:0}19.233%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k51{0%,19.531%{opacity:0}19.581%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k52{0%,19.880%{opacity:0}19.930%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k53{0%,20.229%{opacity:0}20.279%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k54{0%,20.927%{opacity:0}20.977%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k55{0%,21.624%{opacity:0}21.674%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k56{0%,21.973%{opacity:0}22.023%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k57{0%,22.322%{opacity:0}22.372%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k58{0%,22.670%{opacity:0}22.720%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k59{0%,23.019%{opacity:0}23.069%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k60{0%,23.368%{opacity:0}23.418%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k61{0%,24.066%{opacity:0}24.116%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k62{0%,24.763%{opacity:0}24.813%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k63{0%,25.112%{opacity:0}25.162%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k64{0%,25.461%{opacity:0}25.511%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k65{0%,25.809%{opacity:0}25.859%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k66{0%,26.158%{opacity:0}26.208%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k67{0%,26.507%{opacity:0}26.557%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k68{0%,26.856%{opacity:0}26.906%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k69{0%,27.205%{opacity:0}27.255%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k70{0%,27.553%{opacity:0}27.603%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k71{0%,27.902%{opacity:0}27.952%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k72{0%,28.600%{opacity:0}28.650%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k73{0%,29.297%{opacity:0}29.347%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k74{0%,29.646%{opacity:0}29.696%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k75{0%,29.995%{opacity:0}30.045%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k76{0%,30.344%{opacity:0}30.394%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k77{0%,30.692%{opacity:0}30.742%,38.714%{opacity:1}38.764%,100%{opacity:0}}
+@keyframes k78{0%,17.788%{opacity:0}17.838%,18.181%{opacity:1}18.231%,100%{opacity:0}}
+@keyframes k79{0%,18.136%{opacity:0}18.186%,18.530%{opacity:1}18.580%,100%{opacity:0}}
+@keyframes k80{0%,18.485%{opacity:0}18.535%,18.879%{opacity:1}18.929%,100%{opacity:0}}
+@keyframes k81{0%,18.834%{opacity:0}18.884%,19.228%{opacity:1}19.278%,100%{opacity:0}}
+@keyframes k82{0%,19.183%{opacity:0}19.233%,19.576%{opacity:1}19.626%,100%{opacity:0}}
+@keyframes k83{0%,19.531%{opacity:0}19.581%,19.925%{opacity:1}19.975%,100%{opacity:0}}
+@keyframes k84{0%,19.880%{opacity:0}19.930%,20.274%{opacity:1}20.324%,100%{opacity:0}}
+@keyframes k85{0%,20.229%{opacity:0}20.279%,20.623%{opacity:1}20.673%,100%{opacity:0}}
+@keyframes k86{0%,20.578%{opacity:0}20.628%,20.972%{opacity:1}21.022%,100%{opacity:0}}
+@keyframes k87{0%,20.927%{opacity:0}20.977%,21.320%{opacity:1}21.370%,100%{opacity:0}}
+@keyframes k88{0%,21.275%{opacity:0}21.325%,21.669%{opacity:1}21.719%,100%{opacity:0}}
+@keyframes k89{0%,21.624%{opacity:0}21.674%,22.018%{opacity:1}22.068%,100%{opacity:0}}
+@keyframes k90{0%,21.973%{opacity:0}22.023%,22.367%{opacity:1}22.417%,100%{opacity:0}}
+@keyframes k91{0%,22.322%{opacity:0}22.372%,22.715%{opacity:1}22.765%,100%{opacity:0}}
+@keyframes k92{0%,22.670%{opacity:0}22.720%,23.064%{opacity:1}23.114%,100%{opacity:0}}
+@keyframes k93{0%,23.019%{opacity:0}23.069%,23.413%{opacity:1}23.463%,100%{opacity:0}}
+@keyframes k94{0%,23.368%{opacity:0}23.418%,23.762%{opacity:1}23.812%,100%{opacity:0}}
+@keyframes k95{0%,23.717%{opacity:0}23.767%,24.111%{opacity:1}24.161%,100%{opacity:0}}
+@keyframes k96{0%,24.066%{opacity:0}24.116%,24.459%{opacity:1}24.509%,100%{opacity:0}}
+@keyframes k97{0%,24.414%{opacity:0}24.464%,24.808%{opacity:1}24.858%,100%{opacity:0}}
+@keyframes k98{0%,24.763%{opacity:0}24.813%,25.157%{opacity:1}25.207%,100%{opacity:0}}
+@keyframes k99{0%,25.112%{opacity:0}25.162%,25.506%{opacity:1}25.556%,100%{opacity:0}}
+@keyframes k100{0%,25.461%{opacity:0}25.511%,25.855%{opacity:1}25.905%,100%{opacity:0}}
+@keyframes k101{0%,25.809%{opacity:0}25.859%,26.203%{opacity:1}26.253%,100%{opacity:0}}
+@keyframes k102{0%,26.158%{opacity:0}26.208%,26.552%{opacity:1}26.602%,100%{opacity:0}}
+@keyframes k103{0%,26.507%{opacity:0}26.557%,26.901%{opacity:1}26.951%,100%{opacity:0}}
+@keyframes k104{0%,26.856%{opacity:0}26.906%,27.250%{opacity:1}27.300%,100%{opacity:0}}
+@keyframes k105{0%,27.205%{opacity:0}27.255%,27.598%{opacity:1}27.648%,100%{opacity:0}}
+@keyframes k106{0%,27.553%{opacity:0}27.603%,27.947%{opacity:1}27.997%,100%{opacity:0}}
+@keyframes k107{0%,27.902%{opacity:0}27.952%,28.296%{opacity:1}28.346%,100%{opacity:0}}
+@keyframes k108{0%,28.251%{opacity:0}28.301%,28.645%{opacity:1}28.695%,100%{opacity:0}}
+@keyframes k109{0%,28.600%{opacity:0}28.650%,28.994%{opacity:1}29.044%,100%{opacity:0}}
+@keyframes k110{0%,28.949%{opacity:0}28.999%,29.342%{opacity:1}29.392%,100%{opacity:0}}
+@keyframes k111{0%,29.297%{opacity:0}29.347%,29.691%{opacity:1}29.741%,100%{opacity:0}}
+@keyframes k112{0%,29.646%{opacity:0}29.696%,30.040%{opacity:1}30.090%,100%{opacity:0}}
+@keyframes k113{0%,29.995%{opacity:0}30.045%,30.389%{opacity:1}30.439%,100%{opacity:0}}
+@keyframes k114{0%,30.344%{opacity:0}30.394%,30.737%{opacity:1}30.787%,100%{opacity:0}}
+@keyframes k115{0%,30.692%{opacity:0}30.742%,38.710%{opacity:1}38.760%,100%{opacity:0}}
+@keyframes k116{0%,40.508%{opacity:0}40.558%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k117{0%,40.857%{opacity:0}40.907%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k118{0%,41.554%{opacity:0}41.604%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k119{0%,41.903%{opacity:0}41.953%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k120{0%,42.252%{opacity:0}42.302%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k121{0%,42.601%{opacity:0}42.651%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k122{0%,42.950%{opacity:0}43.000%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k123{0%,43.298%{opacity:0}43.348%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k124{0%,43.647%{opacity:0}43.697%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k125{0%,43.996%{opacity:0}44.046%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k126{0%,44.345%{opacity:0}44.395%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k127{0%,44.693%{opacity:0}44.743%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k128{0%,45.042%{opacity:0}45.092%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k129{0%,45.740%{opacity:0}45.790%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k130{0%,46.437%{opacity:0}46.487%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k131{0%,46.786%{opacity:0}46.836%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k132{0%,47.135%{opacity:0}47.185%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k133{0%,47.832%{opacity:0}47.882%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k134{0%,48.181%{opacity:0}48.231%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k135{0%,48.530%{opacity:0}48.580%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k136{0%,48.879%{opacity:0}48.929%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k137{0%,49.228%{opacity:0}49.278%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k138{0%,49.576%{opacity:0}49.626%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k139{0%,49.925%{opacity:0}49.975%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k140{0%,50.274%{opacity:0}50.324%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k141{0%,50.623%{opacity:0}50.673%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k142{0%,50.971%{opacity:0}51.021%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k143{0%,51.320%{opacity:0}51.370%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k144{0%,51.669%{opacity:0}51.719%,59.691%{opacity:1}59.741%,100%{opacity:0}}
+@keyframes k145{0%,40.159%{opacity:0}40.209%,40.553%{opacity:1}40.603%,100%{opacity:0}}
+@keyframes k146{0%,40.508%{opacity:0}40.558%,40.902%{opacity:1}40.952%,100%{opacity:0}}
+@keyframes k147{0%,40.857%{opacity:0}40.907%,41.251%{opacity:1}41.301%,100%{opacity:0}}
+@keyframes k148{0%,41.206%{opacity:0}41.256%,41.599%{opacity:1}41.649%,100%{opacity:0}}
+@keyframes k149{0%,41.554%{opacity:0}41.604%,41.948%{opacity:1}41.998%,100%{opacity:0}}
+@keyframes k150{0%,41.903%{opacity:0}41.953%,42.297%{opacity:1}42.347%,100%{opacity:0}}
+@keyframes k151{0%,42.252%{opacity:0}42.302%,42.646%{opacity:1}42.696%,100%{opacity:0}}
+@keyframes k152{0%,42.601%{opacity:0}42.651%,42.995%{opacity:1}43.045%,100%{opacity:0}}
+@keyframes k153{0%,42.950%{opacity:0}43.000%,43.343%{opacity:1}43.393%,100%{opacity:0}}
+@keyframes k154{0%,43.298%{opacity:0}43.348%,43.692%{opacity:1}43.742%,100%{opacity:0}}
+@keyframes k155{0%,43.647%{opacity:0}43.697%,44.041%{opacity:1}44.091%,100%{opacity:0}}
+@keyframes k156{0%,43.996%{opacity:0}44.046%,44.390%{opacity:1}44.440%,100%{opacity:0}}
+@keyframes k157{0%,44.345%{opacity:0}44.395%,44.738%{opacity:1}44.788%,100%{opacity:0}}
+@keyframes k158{0%,44.693%{opacity:0}44.743%,45.087%{opacity:1}45.137%,100%{opacity:0}}
+@keyframes k159{0%,45.042%{opacity:0}45.092%,45.436%{opacity:1}45.486%,100%{opacity:0}}
+@keyframes k160{0%,45.391%{opacity:0}45.441%,45.785%{opacity:1}45.835%,100%{opacity:0}}
+@keyframes k161{0%,45.740%{opacity:0}45.790%,46.134%{opacity:1}46.184%,100%{opacity:0}}
+@keyframes k162{0%,46.089%{opacity:0}46.139%,46.482%{opacity:1}46.532%,100%{opacity:0}}
+@keyframes k163{0%,46.437%{opacity:0}46.487%,46.831%{opacity:1}46.881%,100%{opacity:0}}
+@keyframes k164{0%,46.786%{opacity:0}46.836%,47.180%{opacity:1}47.230%,100%{opacity:0}}
+@keyframes k165{0%,47.135%{opacity:0}47.185%,47.529%{opacity:1}47.579%,100%{opacity:0}}
+@keyframes k166{0%,47.484%{opacity:0}47.534%,47.877%{opacity:1}47.927%,100%{opacity:0}}
+@keyframes k167{0%,47.832%{opacity:0}47.882%,48.226%{opacity:1}48.276%,100%{opacity:0}}
+@keyframes k168{0%,48.181%{opacity:0}48.231%,48.575%{opacity:1}48.625%,100%{opacity:0}}
+@keyframes k169{0%,48.530%{opacity:0}48.580%,48.924%{opacity:1}48.974%,100%{opacity:0}}
+@keyframes k170{0%,48.879%{opacity:0}48.929%,49.273%{opacity:1}49.323%,100%{opacity:0}}
+@keyframes k171{0%,49.228%{opacity:0}49.278%,49.621%{opacity:1}49.671%,100%{opacity:0}}
+@keyframes k172{0%,49.576%{opacity:0}49.626%,49.970%{opacity:1}50.020%,100%{opacity:0}}
+@keyframes k173{0%,49.925%{opacity:0}49.975%,50.319%{opacity:1}50.369%,100%{opacity:0}}
+@keyframes k174{0%,50.274%{opacity:0}50.324%,50.668%{opacity:1}50.718%,100%{opacity:0}}
+@keyframes k175{0%,50.623%{opacity:0}50.673%,51.016%{opacity:1}51.066%,100%{opacity:0}}
+@keyframes k176{0%,50.971%{opacity:0}51.021%,51.365%{opacity:1}51.415%,100%{opacity:0}}
+@keyframes k177{0%,51.320%{opacity:0}51.370%,51.714%{opacity:1}51.764%,100%{opacity:0}}
+@keyframes k178{0%,51.669%{opacity:0}51.719%,59.686%{opacity:1}59.736%,100%{opacity:0}}
+@keyframes k179{0%,61.485%{opacity:0}61.535%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k180{0%,61.833%{opacity:0}61.883%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k181{0%,62.182%{opacity:0}62.232%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k182{0%,62.531%{opacity:0}62.581%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k183{0%,63.229%{opacity:0}63.279%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k184{0%,63.926%{opacity:0}63.976%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k185{0%,64.275%{opacity:0}64.325%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k186{0%,64.624%{opacity:0}64.674%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k187{0%,65.321%{opacity:0}65.371%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k188{0%,66.019%{opacity:0}66.069%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k189{0%,66.368%{opacity:0}66.418%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k190{0%,66.716%{opacity:0}66.766%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k191{0%,67.414%{opacity:0}67.464%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k192{0%,68.111%{opacity:0}68.161%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k193{0%,68.460%{opacity:0}68.510%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k194{0%,68.809%{opacity:0}68.859%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k195{0%,69.158%{opacity:0}69.208%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k196{0%,69.507%{opacity:0}69.557%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k197{0%,69.855%{opacity:0}69.905%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k198{0%,70.204%{opacity:0}70.254%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k199{0%,70.553%{opacity:0}70.603%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k200{0%,71.250%{opacity:0}71.300%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k201{0%,71.599%{opacity:0}71.649%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k202{0%,71.948%{opacity:0}71.998%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k203{0%,72.297%{opacity:0}72.347%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k204{0%,72.994%{opacity:0}73.044%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k205{0%,73.343%{opacity:0}73.393%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k206{0%,73.692%{opacity:0}73.742%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k207{0%,74.041%{opacity:0}74.091%,82.063%{opacity:1}82.113%,100%{opacity:0}}
+@keyframes k208{0%,61.136%{opacity:0}61.186%,61.530%{opacity:1}61.580%,100%{opacity:0}}
+@keyframes k209{0%,61.485%{opacity:0}61.535%,61.878%{opacity:1}61.928%,100%{opacity:0}}
+@keyframes k210{0%,61.833%{opacity:0}61.883%,62.227%{opacity:1}62.277%,100%{opacity:0}}
+@keyframes k211{0%,62.182%{opacity:0}62.232%,62.576%{opacity:1}62.626%,100%{opacity:0}}
+@keyframes k212{0%,62.531%{opacity:0}62.581%,62.925%{opacity:1}62.975%,100%{opacity:0}}
+@keyframes k213{0%,62.880%{opacity:0}62.930%,63.274%{opacity:1}63.324%,100%{opacity:0}}
+@keyframes k214{0%,63.229%{opacity:0}63.279%,63.622%{opacity:1}63.672%,100%{opacity:0}}
+@keyframes k215{0%,63.577%{opacity:0}63.627%,63.971%{opacity:1}64.021%,100%{opacity:0}}
+@keyframes k216{0%,63.926%{opacity:0}63.976%,64.320%{opacity:1}64.370%,100%{opacity:0}}
+@keyframes k217{0%,64.275%{opacity:0}64.325%,64.669%{opacity:1}64.719%,100%{opacity:0}}
+@keyframes k218{0%,64.624%{opacity:0}64.674%,65.017%{opacity:1}65.067%,100%{opacity:0}}
+@keyframes k219{0%,64.972%{opacity:0}65.022%,65.366%{opacity:1}65.416%,100%{opacity:0}}
+@keyframes k220{0%,65.321%{opacity:0}65.371%,65.715%{opacity:1}65.765%,100%{opacity:0}}
+@keyframes k221{0%,65.670%{opacity:0}65.720%,66.064%{opacity:1}66.114%,100%{opacity:0}}
+@keyframes k222{0%,66.019%{opacity:0}66.069%,66.413%{opacity:1}66.463%,100%{opacity:0}}
+@keyframes k223{0%,66.368%{opacity:0}66.418%,66.761%{opacity:1}66.811%,100%{opacity:0}}
+@keyframes k224{0%,66.716%{opacity:0}66.766%,67.110%{opacity:1}67.160%,100%{opacity:0}}
+@keyframes k225{0%,67.065%{opacity:0}67.115%,67.459%{opacity:1}67.509%,100%{opacity:0}}
+@keyframes k226{0%,67.414%{opacity:0}67.464%,67.808%{opacity:1}67.858%,100%{opacity:0}}
+@keyframes k227{0%,67.763%{opacity:0}67.813%,68.156%{opacity:1}68.206%,100%{opacity:0}}
+@keyframes k228{0%,68.111%{opacity:0}68.161%,68.505%{opacity:1}68.555%,100%{opacity:0}}
+@keyframes k229{0%,68.460%{opacity:0}68.510%,68.854%{opacity:1}68.904%,100%{opacity:0}}
+@keyframes k230{0%,68.809%{opacity:0}68.859%,69.203%{opacity:1}69.253%,100%{opacity:0}}
+@keyframes k231{0%,69.158%{opacity:0}69.208%,69.552%{opacity:1}69.602%,100%{opacity:0}}
+@keyframes k232{0%,69.507%{opacity:0}69.557%,69.900%{opacity:1}69.950%,100%{opacity:0}}
+@keyframes k233{0%,69.855%{opacity:0}69.905%,70.249%{opacity:1}70.299%,100%{opacity:0}}
+@keyframes k234{0%,70.204%{opacity:0}70.254%,70.598%{opacity:1}70.648%,100%{opacity:0}}
+@keyframes k235{0%,70.553%{opacity:0}70.603%,70.947%{opacity:1}70.997%,100%{opacity:0}}
+@keyframes k236{0%,70.902%{opacity:0}70.952%,71.295%{opacity:1}71.345%,100%{opacity:0}}
+@keyframes k237{0%,71.250%{opacity:0}71.300%,71.644%{opacity:1}71.694%,100%{opacity:0}}
+@keyframes k238{0%,71.599%{opacity:0}71.649%,71.993%{opacity:1}72.043%,100%{opacity:0}}
+@keyframes k239{0%,71.948%{opacity:0}71.998%,72.342%{opacity:1}72.392%,100%{opacity:0}}
+@keyframes k240{0%,72.297%{opacity:0}72.347%,72.691%{opacity:1}72.741%,100%{opacity:0}}
+@keyframes k241{0%,72.646%{opacity:0}72.696%,73.039%{opacity:1}73.089%,100%{opacity:0}}
+@keyframes k242{0%,72.994%{opacity:0}73.044%,73.388%{opacity:1}73.438%,100%{opacity:0}}
+@keyframes k243{0%,73.343%{opacity:0}73.393%,73.737%{opacity:1}73.787%,100%{opacity:0}}
+@keyframes k244{0%,73.692%{opacity:0}73.742%,74.086%{opacity:1}74.136%,100%{opacity:0}}
+@keyframes k245{0%,74.041%{opacity:0}74.091%,82.058%{opacity:1}82.108%,100%{opacity:0}}
+@keyframes k246{0%,83.856%{opacity:0}83.906%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k247{0%,84.205%{opacity:0}84.255%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k248{0%,84.554%{opacity:0}84.604%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k249{0%,84.903%{opacity:0}84.953%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k250{0%,85.251%{opacity:0}85.301%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k251{0%,85.600%{opacity:0}85.650%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k252{0%,85.949%{opacity:0}85.999%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k253{0%,86.647%{opacity:0}86.697%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k254{0%,86.995%{opacity:0}87.045%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k255{0%,87.693%{opacity:0}87.743%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k256{0%,88.042%{opacity:0}88.092%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k257{0%,88.390%{opacity:0}88.440%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k258{0%,88.739%{opacity:0}88.789%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k259{0%,89.088%{opacity:0}89.138%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k260{0%,89.437%{opacity:0}89.487%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k261{0%,89.786%{opacity:0}89.836%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k262{0%,90.134%{opacity:0}90.184%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k263{0%,90.483%{opacity:0}90.533%,98.505%{opacity:1}98.555%,100%{opacity:0}}
+@keyframes k264{0%,83.508%{opacity:0}83.558%,83.901%{opacity:1}83.951%,100%{opacity:0}}
+@keyframes k265{0%,83.856%{opacity:0}83.906%,84.250%{opacity:1}84.300%,100%{opacity:0}}
+@keyframes k266{0%,84.205%{opacity:0}84.255%,84.599%{opacity:1}84.649%,100%{opacity:0}}
+@keyframes k267{0%,84.554%{opacity:0}84.604%,84.948%{opacity:1}84.998%,100%{opacity:0}}
+@keyframes k268{0%,84.903%{opacity:0}84.953%,85.296%{opacity:1}85.346%,100%{opacity:0}}
+@keyframes k269{0%,85.251%{opacity:0}85.301%,85.645%{opacity:1}85.695%,100%{opacity:0}}
+@keyframes k270{0%,85.600%{opacity:0}85.650%,85.994%{opacity:1}86.044%,100%{opacity:0}}
+@keyframes k271{0%,85.949%{opacity:0}85.999%,86.343%{opacity:1}86.393%,100%{opacity:0}}
+@keyframes k272{0%,86.298%{opacity:0}86.348%,86.692%{opacity:1}86.742%,100%{opacity:0}}
+@keyframes k273{0%,86.647%{opacity:0}86.697%,87.040%{opacity:1}87.090%,100%{opacity:0}}
+@keyframes k274{0%,86.995%{opacity:0}87.045%,87.389%{opacity:1}87.439%,100%{opacity:0}}
+@keyframes k275{0%,87.344%{opacity:0}87.394%,87.738%{opacity:1}87.788%,100%{opacity:0}}
+@keyframes k276{0%,87.693%{opacity:0}87.743%,88.087%{opacity:1}88.137%,100%{opacity:0}}
+@keyframes k277{0%,88.042%{opacity:0}88.092%,88.435%{opacity:1}88.485%,100%{opacity:0}}
+@keyframes k278{0%,88.390%{opacity:0}88.440%,88.784%{opacity:1}88.834%,100%{opacity:0}}
+@keyframes k279{0%,88.739%{opacity:0}88.789%,89.133%{opacity:1}89.183%,100%{opacity:0}}
+@keyframes k280{0%,89.088%{opacity:0}89.138%,89.482%{opacity:1}89.532%,100%{opacity:0}}
+@keyframes k281{0%,89.437%{opacity:0}89.487%,89.831%{opacity:1}89.881%,100%{opacity:0}}
+@keyframes k282{0%,89.786%{opacity:0}89.836%,90.179%{opacity:1}90.229%,100%{opacity:0}}
+@keyframes k283{0%,90.134%{opacity:0}90.184%,90.528%{opacity:1}90.578%,100%{opacity:0}}
+@keyframes k284{0%,90.483%{opacity:0}90.533%,98.500%{opacity:1}98.550%,100%{opacity:0}}
+</style>
+<text x="214.4" y="33" class="c" style="animation-name:k0">P</text>
+<text x="228.8" y="33" class="c" style="animation-name:k1">y</text>
+<text x="243.2" y="33" class="c" style="animation-name:k2">t</text>
+<text x="257.6" y="33" class="c" style="animation-name:k3">h</text>
+<text x="272.0" y="33" class="c" style="animation-name:k4">o</text>
+<text x="286.4" y="33" class="c" style="animation-name:k5">n</text>
+<text x="315.2" y="33" class="c" style="animation-name:k6">B</text>
+<text x="329.6" y="33" class="c" style="animation-name:k7">a</text>
+<text x="344.0" y="33" class="c" style="animation-name:k8">c</text>
+<text x="358.4" y="33" class="c" style="animation-name:k9">k</text>
+<text x="372.8" y="33" class="c" style="animation-name:k10">e</text>
+<text x="387.2" y="33" class="c" style="animation-name:k11">n</text>
+<text x="401.6" y="33" class="c" style="animation-name:k12">d</text>
+<text x="430.4" y="33" class="c" style="animation-name:k13">D</text>
+<text x="444.8" y="33" class="c" style="animation-name:k14">e</text>
+<text x="459.2" y="33" class="c" style="animation-name:k15">v</text>
+<text x="473.6" y="33" class="c" style="animation-name:k16">e</text>
+<text x="488.0" y="33" class="c" style="animation-name:k17">l</text>
+<text x="502.4" y="33" class="c" style="animation-name:k18">o</text>
+<text x="516.8" y="33" class="c" style="animation-name:k19">p</text>
+<text x="531.2" y="33" class="c" style="animation-name:k20">e</text>
+<text x="545.6" y="33" class="c" style="animation-name:k21">r</text>
+<rect x="208.2" y="12" width="3" height="28" class="u" style="animation-name:k22"/>
+<rect x="222.6" y="12" width="3" height="28" class="u" style="animation-name:k23"/>
+<rect x="237.0" y="12" width="3" height="28" class="u" style="animation-name:k24"/>
+<rect x="251.4" y="12" width="3" height="28" class="u" style="animation-name:k25"/>
+<rect x="265.8" y="12" width="3" height="28" class="u" style="animation-name:k26"/>
+<rect x="280.2" y="12" width="3" height="28" class="u" style="animation-name:k27"/>
+<rect x="294.6" y="12" width="3" height="28" class="u" style="animation-name:k28"/>
+<rect x="309.0" y="12" width="3" height="28" class="u" style="animation-name:k29"/>
+<rect x="323.4" y="12" width="3" height="28" class="u" style="animation-name:k30"/>
+<rect x="337.8" y="12" width="3" height="28" class="u" style="animation-name:k31"/>
+<rect x="352.2" y="12" width="3" height="28" class="u" style="animation-name:k32"/>
+<rect x="366.6" y="12" width="3" height="28" class="u" style="animation-name:k33"/>
+<rect x="381.0" y="12" width="3" height="28" class="u" style="animation-name:k34"/>
+<rect x="395.4" y="12" width="3" height="28" class="u" style="animation-name:k35"/>
+<rect x="409.8" y="12" width="3" height="28" class="u" style="animation-name:k36"/>
+<rect x="424.2" y="12" width="3" height="28" class="u" style="animation-name:k37"/>
+<rect x="438.6" y="12" width="3" height="28" class="u" style="animation-name:k38"/>
+<rect x="453.0" y="12" width="3" height="28" class="u" style="animation-name:k39"/>
+<rect x="467.4" y="12" width="3" height="28" class="u" style="animation-name:k40"/>
+<rect x="481.8" y="12" width="3" height="28" class="u" style="animation-name:k41"/>
+<rect x="496.2" y="12" width="3" height="28" class="u" style="animation-name:k42"/>
+<rect x="510.6" y="12" width="3" height="28" class="u" style="animation-name:k43"/>
+<rect x="525.0" y="12" width="3" height="28" class="u" style="animation-name:k44"/>
+<rect x="539.4" y="12" width="3" height="28" class="u" style="animation-name:k45"/>
+<rect x="553.8" y="12" width="3" height="28" class="u" style="animation-name:k46"/>
+<text x="120.8" y="33" class="c" style="animation-name:k47">F</text>
+<text x="135.2" y="33" class="c" style="animation-name:k48">a</text>
+<text x="149.6" y="33" class="c" style="animation-name:k49">s</text>
+<text x="164.0" y="33" class="c" style="animation-name:k50">t</text>
+<text x="178.4" y="33" class="c" style="animation-name:k51">A</text>
+<text x="192.8" y="33" class="c" style="animation-name:k52">P</text>
+<text x="207.2" y="33" class="c" style="animation-name:k53">I</text>
+<text x="236.0" y="33" class="c" style="animation-name:k54">·</text>
+<text x="264.8" y="33" class="c" style="animation-name:k55">D</text>
+<text x="279.2" y="33" class="c" style="animation-name:k56">j</text>
+<text x="293.6" y="33" class="c" style="animation-name:k57">a</text>
+<text x="308.0" y="33" class="c" style="animation-name:k58">n</text>
+<text x="322.4" y="33" class="c" style="animation-name:k59">g</text>
+<text x="336.8" y="33" class="c" style="animation-name:k60">o</text>
+<text x="365.6" y="33" class="c" style="animation-name:k61">·</text>
+<text x="394.4" y="33" class="c" style="animation-name:k62">P</text>
+<text x="408.8" y="33" class="c" style="animation-name:k63">o</text>
+<text x="423.2" y="33" class="c" style="animation-name:k64">s</text>
+<text x="437.6" y="33" class="c" style="animation-name:k65">t</text>
+<text x="452.0" y="33" class="c" style="animation-name:k66">g</text>
+<text x="466.4" y="33" class="c" style="animation-name:k67">r</text>
+<text x="480.8" y="33" class="c" style="animation-name:k68">e</text>
+<text x="495.2" y="33" class="c" style="animation-name:k69">S</text>
+<text x="509.6" y="33" class="c" style="animation-name:k70">Q</text>
+<text x="524.0" y="33" class="c" style="animation-name:k71">L</text>
+<text x="552.8" y="33" class="c" style="animation-name:k72">·</text>
+<text x="581.6" y="33" class="c" style="animation-name:k73">R</text>
+<text x="596.0" y="33" class="c" style="animation-name:k74">e</text>
+<text x="610.4" y="33" class="c" style="animation-name:k75">d</text>
+<text x="624.8" y="33" class="c" style="animation-name:k76">i</text>
+<text x="639.2" y="33" class="c" style="animation-name:k77">s</text>
+<rect x="114.6" y="12" width="3" height="28" class="u" style="animation-name:k78"/>
+<rect x="129.0" y="12" width="3" height="28" class="u" style="animation-name:k79"/>
+<rect x="143.4" y="12" width="3" height="28" class="u" style="animation-name:k80"/>
+<rect x="157.8" y="12" width="3" height="28" class="u" style="animation-name:k81"/>
+<rect x="172.2" y="12" width="3" height="28" class="u" style="animation-name:k82"/>
+<rect x="186.6" y="12" width="3" height="28" class="u" style="animation-name:k83"/>
+<rect x="201.0" y="12" width="3" height="28" class="u" style="animation-name:k84"/>
+<rect x="215.4" y="12" width="3" height="28" class="u" style="animation-name:k85"/>
+<rect x="229.8" y="12" width="3" height="28" class="u" style="animation-name:k86"/>
+<rect x="244.2" y="12" width="3" height="28" class="u" style="animation-name:k87"/>
+<rect x="258.6" y="12" width="3" height="28" class="u" style="animation-name:k88"/>
+<rect x="273.0" y="12" width="3" height="28" class="u" style="animation-name:k89"/>
+<rect x="287.4" y="12" width="3" height="28" class="u" style="animation-name:k90"/>
+<rect x="301.8" y="12" width="3" height="28" class="u" style="animation-name:k91"/>
+<rect x="316.2" y="12" width="3" height="28" class="u" style="animation-name:k92"/>
+<rect x="330.6" y="12" width="3" height="28" class="u" style="animation-name:k93"/>
+<rect x="345.0" y="12" width="3" height="28" class="u" style="animation-name:k94"/>
+<rect x="359.4" y="12" width="3" height="28" class="u" style="animation-name:k95"/>
+<rect x="373.8" y="12" width="3" height="28" class="u" style="animation-name:k96"/>
+<rect x="388.2" y="12" width="3" height="28" class="u" style="animation-name:k97"/>
+<rect x="402.6" y="12" width="3" height="28" class="u" style="animation-name:k98"/>
+<rect x="417.0" y="12" width="3" height="28" class="u" style="animation-name:k99"/>
+<rect x="431.4" y="12" width="3" height="28" class="u" style="animation-name:k100"/>
+<rect x="445.8" y="12" width="3" height="28" class="u" style="animation-name:k101"/>
+<rect x="460.2" y="12" width="3" height="28" class="u" style="animation-name:k102"/>
+<rect x="474.6" y="12" width="3" height="28" class="u" style="animation-name:k103"/>
+<rect x="489.0" y="12" width="3" height="28" class="u" style="animation-name:k104"/>
+<rect x="503.4" y="12" width="3" height="28" class="u" style="animation-name:k105"/>
+<rect x="517.8" y="12" width="3" height="28" class="u" style="animation-name:k106"/>
+<rect x="532.2" y="12" width="3" height="28" class="u" style="animation-name:k107"/>
+<rect x="546.6" y="12" width="3" height="28" class="u" style="animation-name:k108"/>
+<rect x="561.0" y="12" width="3" height="28" class="u" style="animation-name:k109"/>
+<rect x="575.4" y="12" width="3" height="28" class="u" style="animation-name:k110"/>
+<rect x="589.8" y="12" width="3" height="28" class="u" style="animation-name:k111"/>
+<rect x="604.2" y="12" width="3" height="28" class="u" style="animation-name:k112"/>
+<rect x="618.6" y="12" width="3" height="28" class="u" style="animation-name:k113"/>
+<rect x="633.0" y="12" width="3" height="28" class="u" style="animation-name:k114"/>
+<rect x="647.4" y="12" width="3" height="28" class="u" style="animation-name:k115"/>
+<text x="149.6" y="33" class="c" style="animation-name:k116">A</text>
+<text x="164.0" y="33" class="c" style="animation-name:k117">I</text>
+<text x="192.8" y="33" class="c" style="animation-name:k118">E</text>
+<text x="207.2" y="33" class="c" style="animation-name:k119">n</text>
+<text x="221.6" y="33" class="c" style="animation-name:k120">g</text>
+<text x="236.0" y="33" class="c" style="animation-name:k121">i</text>
+<text x="250.4" y="33" class="c" style="animation-name:k122">n</text>
+<text x="264.8" y="33" class="c" style="animation-name:k123">e</text>
+<text x="279.2" y="33" class="c" style="animation-name:k124">e</text>
+<text x="293.6" y="33" class="c" style="animation-name:k125">r</text>
+<text x="308.0" y="33" class="c" style="animation-name:k126">i</text>
+<text x="322.4" y="33" class="c" style="animation-name:k127">n</text>
+<text x="336.8" y="33" class="c" style="animation-name:k128">g</text>
+<text x="365.6" y="33" class="c" style="animation-name:k129">&amp;</text>
+<text x="394.4" y="33" class="c" style="animation-name:k130">L</text>
+<text x="408.8" y="33" class="c" style="animation-name:k131">L</text>
+<text x="423.2" y="33" class="c" style="animation-name:k132">M</text>
+<text x="452.0" y="33" class="c" style="animation-name:k133">I</text>
+<text x="466.4" y="33" class="c" style="animation-name:k134">n</text>
+<text x="480.8" y="33" class="c" style="animation-name:k135">t</text>
+<text x="495.2" y="33" class="c" style="animation-name:k136">e</text>
+<text x="509.6" y="33" class="c" style="animation-name:k137">g</text>
+<text x="524.0" y="33" class="c" style="animation-name:k138">r</text>
+<text x="538.4" y="33" class="c" style="animation-name:k139">a</text>
+<text x="552.8" y="33" class="c" style="animation-name:k140">t</text>
+<text x="567.2" y="33" class="c" style="animation-name:k141">i</text>
+<text x="581.6" y="33" class="c" style="animation-name:k142">o</text>
+<text x="596.0" y="33" class="c" style="animation-name:k143">n</text>
+<text x="610.4" y="33" class="c" style="animation-name:k144">s</text>
+<rect x="143.4" y="12" width="3" height="28" class="u" style="animation-name:k145"/>
+<rect x="157.8" y="12" width="3" height="28" class="u" style="animation-name:k146"/>
+<rect x="172.2" y="12" width="3" height="28" class="u" style="animation-name:k147"/>
+<rect x="186.6" y="12" width="3" height="28" class="u" style="animation-name:k148"/>
+<rect x="201.0" y="12" width="3" height="28" class="u" style="animation-name:k149"/>
+<rect x="215.4" y="12" width="3" height="28" class="u" style="animation-name:k150"/>
+<rect x="229.8" y="12" width="3" height="28" class="u" style="animation-name:k151"/>
+<rect x="244.2" y="12" width="3" height="28" class="u" style="animation-name:k152"/>
+<rect x="258.6" y="12" width="3" height="28" class="u" style="animation-name:k153"/>
+<rect x="273.0" y="12" width="3" height="28" class="u" style="animation-name:k154"/>
+<rect x="287.4" y="12" width="3" height="28" class="u" style="animation-name:k155"/>
+<rect x="301.8" y="12" width="3" height="28" class="u" style="animation-name:k156"/>
+<rect x="316.2" y="12" width="3" height="28" class="u" style="animation-name:k157"/>
+<rect x="330.6" y="12" width="3" height="28" class="u" style="animation-name:k158"/>
+<rect x="345.0" y="12" width="3" height="28" class="u" style="animation-name:k159"/>
+<rect x="359.4" y="12" width="3" height="28" class="u" style="animation-name:k160"/>
+<rect x="373.8" y="12" width="3" height="28" class="u" style="animation-name:k161"/>
+<rect x="388.2" y="12" width="3" height="28" class="u" style="animation-name:k162"/>
+<rect x="402.6" y="12" width="3" height="28" class="u" style="animation-name:k163"/>
+<rect x="417.0" y="12" width="3" height="28" class="u" style="animation-name:k164"/>
+<rect x="431.4" y="12" width="3" height="28" class="u" style="animation-name:k165"/>
+<rect x="445.8" y="12" width="3" height="28" class="u" style="animation-name:k166"/>
+<rect x="460.2" y="12" width="3" height="28" class="u" style="animation-name:k167"/>
+<rect x="474.6" y="12" width="3" height="28" class="u" style="animation-name:k168"/>
+<rect x="489.0" y="12" width="3" height="28" class="u" style="animation-name:k169"/>
+<rect x="503.4" y="12" width="3" height="28" class="u" style="animation-name:k170"/>
+<rect x="517.8" y="12" width="3" height="28" class="u" style="animation-name:k171"/>
+<rect x="532.2" y="12" width="3" height="28" class="u" style="animation-name:k172"/>
+<rect x="546.6" y="12" width="3" height="28" class="u" style="animation-name:k173"/>
+<rect x="561.0" y="12" width="3" height="28" class="u" style="animation-name:k174"/>
+<rect x="575.4" y="12" width="3" height="28" class="u" style="animation-name:k175"/>
+<rect x="589.8" y="12" width="3" height="28" class="u" style="animation-name:k176"/>
+<rect x="604.2" y="12" width="3" height="28" class="u" style="animation-name:k177"/>
+<rect x="618.6" y="12" width="3" height="28" class="u" style="animation-name:k178"/>
+<text x="120.8" y="33" class="c" style="animation-name:k179">S</text>
+<text x="135.2" y="33" class="c" style="animation-name:k180">a</text>
+<text x="149.6" y="33" class="c" style="animation-name:k181">a</text>
+<text x="164.0" y="33" class="c" style="animation-name:k182">S</text>
+<text x="192.8" y="33" class="c" style="animation-name:k183">·</text>
+<text x="221.6" y="33" class="c" style="animation-name:k184">C</text>
+<text x="236.0" y="33" class="c" style="animation-name:k185">R</text>
+<text x="250.4" y="33" class="c" style="animation-name:k186">M</text>
+<text x="279.2" y="33" class="c" style="animation-name:k187">·</text>
+<text x="308.0" y="33" class="c" style="animation-name:k188">E</text>
+<text x="322.4" y="33" class="c" style="animation-name:k189">R</text>
+<text x="336.8" y="33" class="c" style="animation-name:k190">P</text>
+<text x="365.6" y="33" class="c" style="animation-name:k191">·</text>
+<text x="394.4" y="33" class="c" style="animation-name:k192">T</text>
+<text x="408.8" y="33" class="c" style="animation-name:k193">e</text>
+<text x="423.2" y="33" class="c" style="animation-name:k194">l</text>
+<text x="437.6" y="33" class="c" style="animation-name:k195">e</text>
+<text x="452.0" y="33" class="c" style="animation-name:k196">g</text>
+<text x="466.4" y="33" class="c" style="animation-name:k197">r</text>
+<text x="480.8" y="33" class="c" style="animation-name:k198">a</text>
+<text x="495.2" y="33" class="c" style="animation-name:k199">m</text>
+<text x="524.0" y="33" class="c" style="animation-name:k200">M</text>
+<text x="538.4" y="33" class="c" style="animation-name:k201">i</text>
+<text x="552.8" y="33" class="c" style="animation-name:k202">n</text>
+<text x="567.2" y="33" class="c" style="animation-name:k203">i</text>
+<text x="596.0" y="33" class="c" style="animation-name:k204">A</text>
+<text x="610.4" y="33" class="c" style="animation-name:k205">p</text>
+<text x="624.8" y="33" class="c" style="animation-name:k206">p</text>
+<text x="639.2" y="33" class="c" style="animation-name:k207">s</text>
+<rect x="114.6" y="12" width="3" height="28" class="u" style="animation-name:k208"/>
+<rect x="129.0" y="12" width="3" height="28" class="u" style="animation-name:k209"/>
+<rect x="143.4" y="12" width="3" height="28" class="u" style="animation-name:k210"/>
+<rect x="157.8" y="12" width="3" height="28" class="u" style="animation-name:k211"/>
+<rect x="172.2" y="12" width="3" height="28" class="u" style="animation-name:k212"/>
+<rect x="186.6" y="12" width="3" height="28" class="u" style="animation-name:k213"/>
+<rect x="201.0" y="12" width="3" height="28" class="u" style="animation-name:k214"/>
+<rect x="215.4" y="12" width="3" height="28" class="u" style="animation-name:k215"/>
+<rect x="229.8" y="12" width="3" height="28" class="u" style="animation-name:k216"/>
+<rect x="244.2" y="12" width="3" height="28" class="u" style="animation-name:k217"/>
+<rect x="258.6" y="12" width="3" height="28" class="u" style="animation-name:k218"/>
+<rect x="273.0" y="12" width="3" height="28" class="u" style="animation-name:k219"/>
+<rect x="287.4" y="12" width="3" height="28" class="u" style="animation-name:k220"/>
+<rect x="301.8" y="12" width="3" height="28" class="u" style="animation-name:k221"/>
+<rect x="316.2" y="12" width="3" height="28" class="u" style="animation-name:k222"/>
+<rect x="330.6" y="12" width="3" height="28" class="u" style="animation-name:k223"/>
+<rect x="345.0" y="12" width="3" height="28" class="u" style="animation-name:k224"/>
+<rect x="359.4" y="12" width="3" height="28" class="u" style="animation-name:k225"/>
+<rect x="373.8" y="12" width="3" height="28" class="u" style="animation-name:k226"/>
+<rect x="388.2" y="12" width="3" height="28" class="u" style="animation-name:k227"/>
+<rect x="402.6" y="12" width="3" height="28" class="u" style="animation-name:k228"/>
+<rect x="417.0" y="12" width="3" height="28" class="u" style="animation-name:k229"/>
+<rect x="431.4" y="12" width="3" height="28" class="u" style="animation-name:k230"/>
+<rect x="445.8" y="12" width="3" height="28" class="u" style="animation-name:k231"/>
+<rect x="460.2" y="12" width="3" height="28" class="u" style="animation-name:k232"/>
+<rect x="474.6" y="12" width="3" height="28" class="u" style="animation-name:k233"/>
+<rect x="489.0" y="12" width="3" height="28" class="u" style="animation-name:k234"/>
+<rect x="503.4" y="12" width="3" height="28" class="u" style="animation-name:k235"/>
+<rect x="517.8" y="12" width="3" height="28" class="u" style="animation-name:k236"/>
+<rect x="532.2" y="12" width="3" height="28" class="u" style="animation-name:k237"/>
+<rect x="546.6" y="12" width="3" height="28" class="u" style="animation-name:k238"/>
+<rect x="561.0" y="12" width="3" height="28" class="u" style="animation-name:k239"/>
+<rect x="575.4" y="12" width="3" height="28" class="u" style="animation-name:k240"/>
+<rect x="589.8" y="12" width="3" height="28" class="u" style="animation-name:k241"/>
+<rect x="604.2" y="12" width="3" height="28" class="u" style="animation-name:k242"/>
+<rect x="618.6" y="12" width="3" height="28" class="u" style="animation-name:k243"/>
+<rect x="633.0" y="12" width="3" height="28" class="u" style="animation-name:k244"/>
+<rect x="647.4" y="12" width="3" height="28" class="u" style="animation-name:k245"/>
+<text x="243.2" y="33" class="c" style="animation-name:k246">F</text>
+<text x="257.6" y="33" class="c" style="animation-name:k247">o</text>
+<text x="272.0" y="33" class="c" style="animation-name:k248">u</text>
+<text x="286.4" y="33" class="c" style="animation-name:k249">n</text>
+<text x="300.8" y="33" class="c" style="animation-name:k250">d</text>
+<text x="315.2" y="33" class="c" style="animation-name:k251">e</text>
+<text x="329.6" y="33" class="c" style="animation-name:k252">r</text>
+<text x="358.4" y="33" class="c" style="animation-name:k253">o</text>
+<text x="372.8" y="33" class="c" style="animation-name:k254">f</text>
+<text x="401.6" y="33" class="c" style="animation-name:k255">A</text>
+<text x="416.0" y="33" class="c" style="animation-name:k256">u</text>
+<text x="430.4" y="33" class="c" style="animation-name:k257">t</text>
+<text x="444.8" y="33" class="c" style="animation-name:k258">o</text>
+<text x="459.2" y="33" class="c" style="animation-name:k259">S</text>
+<text x="473.6" y="33" class="c" style="animation-name:k260">o</text>
+<text x="488.0" y="33" class="c" style="animation-name:k261">l</text>
+<text x="502.4" y="33" class="c" style="animation-name:k262">v</text>
+<text x="516.8" y="33" class="c" style="animation-name:k263">e</text>
+<rect x="237.0" y="12" width="3" height="28" class="u" style="animation-name:k264"/>
+<rect x="251.4" y="12" width="3" height="28" class="u" style="animation-name:k265"/>
+<rect x="265.8" y="12" width="3" height="28" class="u" style="animation-name:k266"/>
+<rect x="280.2" y="12" width="3" height="28" class="u" style="animation-name:k267"/>
+<rect x="294.6" y="12" width="3" height="28" class="u" style="animation-name:k268"/>
+<rect x="309.0" y="12" width="3" height="28" class="u" style="animation-name:k269"/>
+<rect x="323.4" y="12" width="3" height="28" class="u" style="animation-name:k270"/>
+<rect x="337.8" y="12" width="3" height="28" class="u" style="animation-name:k271"/>
+<rect x="352.2" y="12" width="3" height="28" class="u" style="animation-name:k272"/>
+<rect x="366.6" y="12" width="3" height="28" class="u" style="animation-name:k273"/>
+<rect x="381.0" y="12" width="3" height="28" class="u" style="animation-name:k274"/>
+<rect x="395.4" y="12" width="3" height="28" class="u" style="animation-name:k275"/>
+<rect x="409.8" y="12" width="3" height="28" class="u" style="animation-name:k276"/>
+<rect x="424.2" y="12" width="3" height="28" class="u" style="animation-name:k277"/>
+<rect x="438.6" y="12" width="3" height="28" class="u" style="animation-name:k278"/>
+<rect x="453.0" y="12" width="3" height="28" class="u" style="animation-name:k279"/>
+<rect x="467.4" y="12" width="3" height="28" class="u" style="animation-name:k280"/>
+<rect x="481.8" y="12" width="3" height="28" class="u" style="animation-name:k281"/>
+<rect x="496.2" y="12" width="3" height="28" class="u" style="animation-name:k282"/>
+<rect x="510.6" y="12" width="3" height="28" class="u" style="animation-name:k283"/>
+<rect x="525.0" y="12" width="3" height="28" class="u" style="animation-name:k284"/>
 </svg>

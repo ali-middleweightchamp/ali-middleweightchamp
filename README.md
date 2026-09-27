@@ -1,17 +1,17 @@
 <!-- Header -->
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Ali Abdullayev — Backend | AI Engineer & Entrepreneur" />
+  <img src="./header.svg" width="100%" alt="Ali Abdullayev — Backend | AI Engineer & Entrepreneur" />
 </p>
 
 <p align="center">
-  <img src="./assets/typing.svg" alt="Python Backend Developer · FastAPI · AI Engineering · Founder of AutoSolve" />
+  <img src="./typing.svg" alt="Python Backend Developer · FastAPI · AI Engineering · Founder of AutoSolve" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ali-abdullayev-311aa534a/"><img src="./assets/linkedin.svg" width="48" alt="LinkedIn" /></a>&nbsp;
-  <a href="https://t.me/xxw9595"><img src="./assets/telegram.svg" width="48" alt="Telegram" /></a>&nbsp;
-  <a href="https://www.instagram.com/aa_abd95/"><img src="./assets/instagram.svg" width="48" alt="Instagram" /></a>&nbsp;
-  <a href="https://autosolve.uz"><img src="./assets/autosolve.png" width="48" alt="AutoSolve" /></a>
+  <a href="https://www.linkedin.com/in/ali-abdullayev-311aa534a/"><img src="./linkedin.svg" width="48" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://t.me/xxw9595"><img src="./telegram.svg" width="48" alt="Telegram" /></a>&nbsp;
+  <a href="https://www.instagram.com/aa_abd95/"><img src="./instagram.svg" width="48" alt="Instagram" /></a>&nbsp;
+  <a href="https://autosolve.uz"><img src="./autosolve.png" width="48" alt="AutoSolve" /></a>
 </p>
 
 ---
@@ -34,7 +34,7 @@ I don't only write code, I also build products and startups. I turn ideas into w
 ## 🛠 Tech Stack
 
 <p align="center">
-  <img src="./assets/stack.svg" width="600" alt="Python, FastAPI, Django, PostgreSQL, Redis, Docker, Git, GitHub, Postman, Linux" />
+  <img src="./stack.svg" width="600" alt="Python, FastAPI, Django, PostgreSQL, Redis, Docker, Git, GitHub, Postman, Linux" />
 </p>
 
 <p align="center">
@@ -67,7 +67,7 @@ I don't only write code, I also build products and startups. I turn ideas into w
 <table>
   <tr>
     <td width="200" align="center">
-      <a href="https://autosolve.uz"><img src="./assets/autosolve-logo.png" width="180" alt="AutoSolve" /></a>
+      <a href="https://autosolve.uz"><img src="./autosolve-logo.png" width="180" alt="AutoSolve" /></a>
     </td>
     <td>
       <h3><a href="https://autosolve.uz">AutoSolve</a> — my IT agency</h3>
@@ -91,8 +91,8 @@ I don't only write code, I also build products and startups. I turn ideas into w
 ## 📫 Let's connect
 
 I'm open to **Backend Developer** roles, collaborations and interesting projects.
-The fastest way to reach me is Telegram: <a href="https://t.me/xxw9595"><img src="./assets/telegram.svg" width="16" alt="" /> <b>@xxw9595</b></a>
+The fastest way to reach me is Telegram: <a href="https://t.me/xxw9595"><img src="./telegram.svg" width="16" alt="" /> <b>@xxw9595</b></a>
 
 <p align="center">
-  <img src="./assets/footer.svg" width="100%" alt="" />
+  <img src="./footer.svg" width="100%" alt="" />
 </p>
